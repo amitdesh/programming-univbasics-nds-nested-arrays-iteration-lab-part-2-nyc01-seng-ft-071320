@@ -11,8 +11,8 @@ def find_min_in_nested_arrays(src)
       else
         x = src[counter][0]
       end
-    min_array << x
     counter2 +=1
+    min_array << x
     end
   counter +=1  
   end
