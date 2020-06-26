@@ -10,8 +10,6 @@ def find_min_in_nested_arrays(src)
       if src[counter][counter2] < x
         x = src[counter][counter2]
         min_array << x
-      else
-        min_array << x
       end
     counter2 +=1
     end
