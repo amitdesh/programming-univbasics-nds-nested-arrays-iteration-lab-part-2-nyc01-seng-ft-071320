@@ -15,4 +15,5 @@ def find_min_in_nested_arrays(src)
   min_array << x
   counter +=1  
   end
+  return min_array
 end
