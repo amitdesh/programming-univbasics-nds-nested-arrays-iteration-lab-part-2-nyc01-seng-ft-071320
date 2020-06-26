@@ -9,7 +9,8 @@ def find_min_in_nested_arrays(src)
       x = src[counter][0]
       if src[counter][counter2] < src[counter][0]
         min_array << src[counter][counter2]
-        min_array[-1] = src[counter][counter2]
+      else
+        min_array[-1] = src[counter][0]
       end
     counter2 +=1
     end
